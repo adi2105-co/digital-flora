@@ -1,0 +1,48 @@
+### Step 1: Open Terminal and Launch VS Code
+
+Open Command Prompt (`Win + R`, type `cmd`, and press Enter) or PowerShell, then run the following commands to navigate to your main project folder and launch VS Code:
+
+```bash
+cd "C:\Users\Aditya Singh\digital-flora-backend\digital-flora"
+code .
+
+```
+
+---
+
+### Step 2: Open Terminal Windows in VS Code
+
+Once VS Code opens, press **`Ctrl` + `~**` (or go to **Terminal ➔ New Terminal** from the top menu) to open the integrated terminal.
+
+---
+
+### Step 3: Start the Backend Server
+
+In your first terminal window, navigate to the `server` directory and start the Node.js backend:
+
+```bash
+cd server
+node server.js
+
+```
+
+> **Note:** Make sure your backend prints a confirmation message (e.g., connected to MongoDB and listening on port `5000`).
+
+---
+
+### Step 4: Start the Frontend Client
+
+1. Click the **`+` (New Terminal)** button at the top-right corner of the terminal panel to open a second terminal tab.
+2. Run the following commands to enter the `client` directory and start Vite:
+
+```bash
+cd client
+npm run dev
+
+```
+
+---
+
+### Step 5: View the Application
+
+Open your browser and navigate to the URL shown in your client terminal output (typically `http://localhost:5173`).
